@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+    font-family: "cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body{
+    margin: 0;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.landing-page{
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:1920px 1080px;
+    background-position: center;
+    margin: 0px;
+}
+
+.text-center{   
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size:1920px 1080px;
+    /* padding: 205px 0 135px 0; */
+    padding: 220px 0 200px ;
+}
+
+.landing-h1{
+    color:white;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.landing-p{
+    color:rgb(249, 242, 242);
+    font-size:larger ;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+/* ENDING LANDING PAGE */
+/* tours */
+.tours{
+    padding: 25px 10px;
+    margin: 10px 30px 0;
+}
+
+.tours span{
+    color:#3ec4c9 ;
+    text-transform: uppercase;
+    font-size: 23px;
+}    
+
+.tours-header h1{
+    font-size: 35px;
+    margin: 0%;
+    color: #102039;
+}
+
+/* tours card */
+.card{
+    width: 420px;
+    background-color: #f1efef;
+    border-radius: 60px;
+    margin: 0 10px;
+    box-shadow: 5px 5px 13px 2px   rgb(177, 186, 189);
+}
+
+.img-btn{
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+}
+
+.card-img{
+    width: 420px;
+    height:500px ;
+    border-radius: 60px 60px 0 0;
+} 
+
+.card-info{
+    padding: 0px 15px;
+}
+
+.upper-cardpart{
+    padding: 5px 0 8px 0;
+}
+
+.card-name{
+    height: 145px;
+}
+
+.card-name p{
+    color: rgb(95, 85, 85);
+}
+
+.card-name h3{
+    color: #102039;
+    font-size: 25px;
+    padding: 0 0 7px 0;
+}
+
+.lower-cardpart{
+    padding: 5px 15px 0 15px ;
+    margin-bottom: 0;
+}
+
+.lower-cardpart .price{
+    color: #102039;
+    font-style: bold;
+    font-size: 23px;
+    padding:10px 0 10px 0;
+    
+}
+
+.btn{
+    background-color: #102039;
+    color: rgb(231, 232, 238);
+    border: none;
+    border-radius: 4px ;
+    position: relative;
+    left:220px;
+    height: 50px;
+    width: 130px;
+    font-size: 19px;
+    transform: translateY(-45px);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.btn:hover{
+    background-color:#3fd0d4;
+}
+
+.days{
+    background-color: white;
+    color: #102039;
+    height: 55px;
+    width: 170px;
+    border: none;
+    border-radius: 60px 60px 60px 0 ;
+    font-size: 18px;
+    cursor: not-allowed;
+    margin: 20px;
+    transform: translateY(-490px);
+    position: absolute;
+    top: 100%;
+    left: 3%;
+}
+
+.days:hover{
+    background-color:#3fd0d4;
+    color: white;
+    box-shadow: 10px 10px 20px  rgb(106, 106, 111);
+}
+
+.first-tours{
+    display: flex;
+    gap:40px;
+    padding: 25px 50px;
+}
